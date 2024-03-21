@@ -214,6 +214,8 @@
 
                                 {!! view_render_event('admin.settings.users.create.form_controls.permission.after') !!}
                             </tab>
+
+                            {!! view_render_event('admin.settings.users.create.form_controls.permission.tab.after') !!}
                         </tabs>
                     </div>
                     

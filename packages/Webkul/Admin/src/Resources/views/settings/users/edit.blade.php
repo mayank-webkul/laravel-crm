@@ -229,6 +229,8 @@
 
                                 {!! view_render_event('admin.settings.users.edit.form_controls.permission.after', ['admin' => $admin]) !!}
                             </tab>
+
+                            {!! view_render_event('admin.settings.users.edit.form_controls.permission.tab.after', ['admin' => $admin]) !!}
                         </tabs>
                     </div>
                 </div>

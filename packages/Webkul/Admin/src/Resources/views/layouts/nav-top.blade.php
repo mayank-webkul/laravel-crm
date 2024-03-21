@@ -18,6 +18,8 @@
             || bouncer()->hasPermission('settings.user.roles.create')
             || bouncer()->hasPermission('settings.user.users.create')
         )
+            {!! view_render_event('admin.layouts.nav-top.quick-create.before') !!}
+            
             <div class="quick-create">
                 <span class="button dropdown-toggle">
                     <i class="icon plus-white-icon"></i>
